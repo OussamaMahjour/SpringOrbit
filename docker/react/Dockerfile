@@ -4,4 +4,12 @@ WORKDIR /app
 
 RUN apk add bash curl wget
 
-ENTRYPOINT [ "npm","run","dev" ]
+RUN npm install
+
+RUN npm run build
+
+RUN npm install -g serve
+
+EXPOSE 8080
+
+CMD ["serve", "-s", "build", "-l", "8080"]
