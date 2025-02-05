@@ -19,7 +19,7 @@ SpringOrbit is a social media platform built using microservice architecture in 
 
 2. Start the application with Docker Compose:
    ```sh
-   docker-compose up
+   docker-compose up --build
    ```
 
    Note: Due to the number of containers, a service may not run because of memory constraints. If this happens, rerun the Docker Compose command.
