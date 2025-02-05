@@ -1,6 +1,6 @@
 Here is the updated README content in markdown, not interpreted:
 
-```
+
 # SpringOrbit
 
 SpringOrbit is a social media platform built using microservice architecture in Spring Boot. Each service is containerized with Docker, and the application can be started using Docker Compose. The front-end is built with React and TypeScript.
