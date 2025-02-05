@@ -334,14 +334,14 @@ services:
     expose:
       - "27017"
   
-#  client:
-#    container_name: client
-#    build:
-#      context: ./client
-#      dockerfile: ../docker/react/Dockerfile
-#    volumes:
-#      - ./client:/app
-#    ports:
-#      - 8080:8080
+  client:
+    container_name: client
+    build:
+      context: ./client
+      dockerfile: ../docker/react/Dockerfile
+    volumes:
+      - ./client:/app
+    ports:
+      - 8080:8080
 
 
